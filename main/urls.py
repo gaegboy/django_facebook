@@ -24,7 +24,7 @@ urlpatterns = [
     path('play2/',play2),
     path('jae/profile/',profile),
     path('event/',event),
-    path('/',newsfeed),
+    path('',newsfeed),
     path('feed/<pk>/',detail_feed),
     path('pages/',pages),
     path('new/',new_feed),
