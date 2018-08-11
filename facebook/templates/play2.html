@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>play2</title>
+</head>
+<body>
+    {{name}}님({{stat}}) 안녕하세요? <br>
+    {{cnt}}번째 방문입니다! <br>
+    <h2>나의 일기</h2> <br>
+   {%for post in diary%}
+    <h4>{{post}}</h4>
+    {%endfor%}
+</body>
+</html>
